@@ -1,0 +1,82 @@
+.boxe{
+	height: 300px;
+	overflow-y: hidden;
+	white-space: nowrap;
+	overflow-x: scroll;
+	scrollbar-color:#D3D3D3 #fff;
+	border-radius:10px;
+}
+.h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+	color: white
+}
+h2{
+	color: white;
+}
+body{
+	background-color: black;
+}
+p{
+	color: white;
+}
+button{
+	outline: none;
+	font-size: 1.5em;
+	font-family: monospace;
+	border-radius: 10px;
+	color: white;
+	background-color:black;
+	border-color: white;
+	cursor: pointer;
+	width: 40.5vh;
+	height: 30px;
+}
+button:hover {
+	transform: scale(1.05);
+}
+img{
+	border-radius: 10px;
+}
+
+hr{
+	background-color: white;
+	height: 5px;
+}
+.imageshome{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30vh;
+}
+.logoàdroite{
+	display:flex;
+	justify-content: right;
+	height: 0vh;
+}
+.airjordan1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 25vh;
+}
+p1{
+	display: flex;
+	justify-content: center;
+	color: white;
+	height: 10vh;
+}
+p2{display: flex;
+	justify-content: center;
+	color: white;
+	height: 10vh;
+}
+a:link{
+	color: white;
+	font-size: 8px;
+}
+a:visited{
+	color: grey;
+}
